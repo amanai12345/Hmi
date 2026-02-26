@@ -2069,11 +2069,11 @@ if (p.strokeStyle?.style && p.strokeStyle.style !== "None") {
 }
 
 function drawAllSVGs(color) {
-  drawSVGOnCanvas('./Tank WEST 1.svg',49,274,190,250);
+  drawSVGOnCanvas('./TANK WEST 1.svg',49,274,190,250);
   drawSVGOnCanvas('./A2 (2).svg',1145,620,230,185,); 
   drawSVGOnCanvas('./B.svg',1405,620,230,185); 
-  drawSVGOnCanvas('./Tank NORTH 1.svg',278,274,190,250);
-  drawSVGOnCanvas('./Tank EAST 1.svg',500,274,270,250);
+  drawSVGOnCanvas('./TANK NORTH 1.svg',278,274,190,250);
+  drawSVGOnCanvas('./TANK EAST 1.svg',500,274,270,250);
   drawSVGOnCanvas('./A1.svg',40,610,80,95);
   drawSVGOnCanvas('./A2.svg',150,610,80,95);
   drawSVGOnCanvas('./B1.svg',271,610,80,95);
@@ -2539,4 +2539,5 @@ if (hexInput) {
   hexInput.addEventListener("change", () => {
     applyColor(hexInput.value);
   });
+
 }
