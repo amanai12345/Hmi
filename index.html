@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>JSON Canvas Renderer</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<h2>Color Controls</h2>
+
+<!--  MAIN CONTAINER -->
+<div class="main-container">
+
+  <!-- CANVAS -->
+  <div class="canvas-wrapper">
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <!-- RIGHT SIDEBAR -->
+  <div class="controls">
+
+  <!-- LINE -->
+  <div class="control-row" data-target="line">
+    <span class="label">For Line </span>
+    <div class="color-preview" id="linePreview"></div>
+    <input class="color-value" id="lineHex" value="#000000" readonly>
+    <!-- <div class="menu-icon">≡</div> -->
+  </div>
+
+  <!-- DEVICE -->
+  <div class="control-row" data-target="device">
+    <span class="label">For Device</span>
+    <div class="color-preview" id="devicePreview"></div>
+    <input class="color-value" id="deviceHex" value="#000000" readonly>
+    <!-- <div class="menu-icon">≡</div> -->
+  </div>
+
+  <!-- TEXT -->
+  <div class="control-row" data-target="text">
+    <span class="label">ForText Color</span>
+    <div class="color-preview" id="textPreview"></div>
+    <input class="color-value" id="textHex" value="#000000" readonly>
+    <!-- <div class="menu-icon">≡</div> -->
+  </div>
+
+  <!-- PUMP CLOSED -->
+  <div class="control-row" data-target="pumpClosed">
+    <span class="label">Pump / Closed</span>
+    <div class="color-preview" id="closedPreview"></div>
+    <input class="color-value" id="closedHex" value="#000000" readonly>
+    <!-- <div class="menu-icon">≡</div> -->
+  </div>
+
+  <!-- PUMP START -->
+  <div class="control-row" data-target="pumpStart">
+    <span class="label">Pump / Start</span>
+    <div class="color-preview" id="startPreview"></div>
+    <input class="color-value" id="startHex" value="#000000" readonly>
+    <!-- <div class="menu-icon">≡</div> -->
+  </div>
+
+</div>
+ 
+ 
+
+</div>
+
+<!--  FLOATING COLOR PALETTE (LIKE YOUR 1st IMAGE) -->
+<div id="colorPalette" class="color-popup">
+<canvas id="colorSpectrum" width="250" height="150"></canvas>
+<input id="hexInput" placeholder="#ffffff">
+  <!-- search -->
+  <input
+    id="colorSearch"
+    class="color-search"
+    placeholder="Search color..."
+  />
+
+  <!-- color grid -->
+  <div id="colorGrid" class="color-grid"></div>
+
+</div>
+
+
+
+<script src="script2.js"></script>
+
+</body>
+</html>
