@@ -556,6 +556,7 @@ const jsonData = {
      {
       props: {
         shape: "polygon",
+        role: "device",
         x: 400,
         y: 892,
         vertices: [
@@ -575,6 +576,7 @@ const jsonData = {
      {
       props: {
         shape: "polygon",
+        role: "device",
         x: 897.27,
         y: 521.64,
         vertices: [
@@ -595,7 +597,6 @@ const jsonData = {
         {
       props: {
         shape: "polygon",
-        role: "device",
         x: 13,
         y: 133,
         vertices: [
@@ -2541,3 +2542,4 @@ if (hexInput) {
   });
 
 }
+
