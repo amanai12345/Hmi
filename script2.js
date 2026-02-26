@@ -703,12 +703,12 @@ const jsonData = {
 
     vertices: [
        { "x": -6, "y": -2.55,    isArc: true, radius: 6  },
-    { "x": -10, "y": -10,    isArc: true, radius: 6  },
+    { "x": -10, "y": -10,  },
     { "x": -46.44, "y": -10.18,    isArc: true, radius: 6  },
     { "x": -45.94, "y": -39.18,    isArc: true, radius: 6  },
     { "x": 105.06, "y": -39.18,    isArc: true, radius: 6  },
     { "x": 104.56, "y": -10.18,    isArc: true, radius: 6  },
-    { "x": 0, "y": -10 ,    isArc: true, radius: 6 },
+    { "x": 0, "y": -10 ,    },
     { "x": -5.23, "y": -3.32,    isArc: true, radius: 6  }
     ],
 
@@ -861,13 +861,13 @@ const jsonData = {
     y: 890,    // unchanged
 
     vertices: [
-        { "x": -6, "y": -2.55,    isArc: true, radius: 6  },
-    { "x": -10, "y": -10,    isArc: true, radius: 6  },
+        { "x": -6, "y": -2.55,     },
+    { "x": -10, "y": -10,      },
     { "x": -46.44, "y": -10.18,    isArc: true, radius: 6  },
     { "x": -45.94, "y": -39.18,    isArc: true, radius: 6  },
     { "x": 105.06, "y": -39.18,    isArc: true, radius: 6  },
     { "x": 104.56, "y": -10.18,    isArc: true, radius: 6  },
-    { "x": 0, "y": -10 ,    isArc: true, radius: 6 },
+    { "x": 0, "y": -10 , },
     { "x": -5.23, "y": -3.32,    isArc: true, radius: 6  }
     ],
 
@@ -906,13 +906,13 @@ const jsonData = {
     y: 992,    // unchanged
 
     vertices: [
-       { "x": -6, "y": -2.55,    isArc: true, radius: 6  },
-    { "x": -10, "y": -10,    isArc: true, radius: 6  },
+       { "x": -6, "y": -2.55, },
+    { "x": -10, "y": -10,    },
     { "x": -46.44, "y": -10.18,    isArc: true, radius: 6  },
     { "x": -45.94, "y": -39.18,    isArc: true, radius: 6  },
     { "x": 105.06, "y": -39.18,    isArc: true, radius: 6  },
     { "x": 104.56, "y": -10.18,    isArc: true, radius: 6  },
-    { "x": 0, "y": -10 ,    isArc: true, radius: 6 },
+    { "x": 0, "y": -10 ,},
     { "x": -5.23, "y": -3.32,    isArc: true, radius: 6  }
     ],
 
@@ -1465,7 +1465,7 @@ const jsonData = {
   props: {
     shape: "text",
     role: "staticText",
-    x: 616,
+    x: 613,
     y: 215,
     text: "FILL",
     fontSize: 15,
@@ -1477,7 +1477,7 @@ const jsonData = {
   props: {
     shape: "text",
     role: "staticText",
-    x: 611,
+    x: 608,
     y: 230,
     text: "505C",
     fontSize: 15,
@@ -2128,7 +2128,7 @@ function drawAllSVGs(color) {
   drawSVGOnCanvas('./A (1).svg',985,465,40,40,);
   drawSVGOnCanvas('./B (1).svg',985,561,40,40,);
   drawSVGOnCanvas('./PINK.svg',1348,260,165,60,);
-  drawSVGOnCanvas('./U (2).svg',885,495,26,23,);
+  drawSVGOnCanvas('./U (2).svg',885,496,26,23,);
   drawSVGOnCanvas('./58.1.svg',143,469,40,15,color);
   drawSVGOnCanvas('./51.2.svg',375,469,40,15,color);
   drawSVGOnCanvas('./86.4.svg',650,469,40,15,color);
@@ -2542,4 +2542,5 @@ if (hexInput) {
   });
 
 }
+
 
